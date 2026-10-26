@@ -1,33 +1,38 @@
 {
     "id": "dynastymc",
     "name": "DynastyMC",
-    "description": "The Italian prison you are looking for",
+    "store": "https://tienda.dynastymc.xyz/",
+    "description": "Play UHC, PvP, BoxPvP, Survival and Kits on DynastyMC.",
     "addresses": [
-        "dynastymc.it"
+        "dynastymc.xyz"
     ],
-    "primaryAddress": "dynastymc.it",
-    "primaryColor": "#ffaa00",
-    "secondaryColor": "#2d3033",
+    "primaryAddress": "play.dynastymc.xyz",
+    "primaryColor": "#7c3aed",
+    "secondaryColor": "#f59e0b",
     "minecraftVersions": [
-        "1.19.4",
-        "1.20.*"
+        "1.17.*",
+        "1.18.*",
+        "1.19.*",
+        "1.20.*",
+        "1.21.*",
+        "26.1.*",
+        "26.2.*",
+        "26.3.*"
     ],
-    "primaryMinecraftVersion": "1.19.4",
-    "crossplay": false,
-    "primaryRegion": "EU",
+    "primaryMinecraftVersion": "26.3",
+    "primaryRegion": "NA",
     "regions": [
-        "EU"
-    ],
-    "primaryLanguage": "it",
-    "languages": [
-        "it"
+        "NA"
     ],
     "gameTypes": [
-        "Prison"
+        "UHC",
+        "PvP",
+        "BoxPvP",
+        "Survival",
+        "KitPvP"
     ],
+    "crossplay": true,
     "socials": {
-        "telegram": "DynastyMCOfficial",
-        "discord": "https://discord.com/invite/srPJne3Dnn",
-        "tiktok": "@dynastymc_official"
+        "discord": "https://discord.gg/x7hDSFXvXz"
     }
 }
